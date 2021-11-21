@@ -1,0 +1,6 @@
+nginx_listen_port: 8080
+worker_processes: auto
+worker_connections: 1024
+#for redhat, redefine in group_vars:
+nginx_user: nginx
+root_group: root
