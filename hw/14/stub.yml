@@ -1,0 +1,8 @@
+---
+- hosts: controller
+
+  tasks:
+    - name: check
+      command: "uname -r"
+
+
